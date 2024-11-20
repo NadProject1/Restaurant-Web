@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8"/>
+    <title>Rasa Nusantara</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="img" href="logooo.png">
+</head>
+
+
+<style>
+* {
+    border: 1px solid red;
+}
+</style>
+
+<body>
+
+     <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#" style="filter: drop-shadow(2px 2px 20px);"><img src="logooo.png"> <span class="d-none d-md-inline">Rasa Nusantara
+                </span></a>
+            </span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#catering">Catering</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#promo">Promo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#kontak">Kontak</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-md-6">
+                    <h1>Nikmati Makanan Dengan Rasa Nusantara</h1>
+                    <p class="lead">Rasakan makanan dan minuman rasa khas rempah Nusantara</p>
+                    <div class="hero-buttons">
+                        <a href="#menu" class="btn btn-primary btn-lg me-3">Lihat Menu</a>
+                        <a href="#codan" class="btn btn-success btn-lg" data-bs-toggle="modal" data-bs-target="#codan">Pesan COD</a>
+                        <br><br>
+                        <a href="https://web.facebook.com/?_rdc=1&_rdr" class="btn facebook">
+                       <span class="fa fa-facebook"></span  style="box-shadow: 2px 2px 20px white;"> Facebook</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MENU SECTION -->
+    <section id="menu" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5" style="color:blanchedalmond">Menu Favorit</h2>
+            <div class="row">
+                <div class="col-md-3 mb-4">
+                    <div class="card menu-card">
+                        <img src="https://asset.kompas.com/crops/T-lA2XBmceDVBtkg1dxHSsZzUCE=/0x38:1000x705/750x500/data/photo/2023/09/08/64faa742ca9ae.jpg" class="card-img-top" alt="Rawon">
+                        <div class="card-body">
+                            <h5 class="card-title">Nasi Rawon Sapi</h5>
+                            <p class="card-text">Rawon dengan daging sapi yang lezat + Nasi hangat</p>
+                            <p class="price">Rp. 27.000 <img src="star-fill.svg" class="bintang"> <img src="star-fill.svg" class="bintang"> <img src="star-fill.svg" class="bintang"></p>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#orderModal">Pesan Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card menu-card">
+                        <img src="https://img.inews.co.id/media/600/files/networks/2024/04/11/48d09_bakso.jpg" class="card-img-top" alt="Bakso">
+                        <div class="card-body">
+                            <h5 class="card-title">Bakso Urat Gepeng</h5>
+                            <p class="card-text">Bakso urat gepeng dengan kuah rempah asli Nusantara</p>
+                            <p class="price">Rp. 29.000 <img src="star-fill.svg" class="bintang"> <img src="star-fill.svg" class="bintang"></p>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#orderModal">Pesan Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card menu-card">
+                        <img src="https://images.unsplash.com/photo-1567620832903-9fc6debc209f" class="card-img-top" alt="Fried Chicken">
+                        <div class="card-body">
+                            <h5 class="card-title">Crispy Chicken</h5>
+                            <p class="card-text">Ayam goreng renyah dengan bumbu rahasia India</p>
+                            <p class="price">Rp. 25.000 <img src="star-fill.svg" class="bintang"> <img src="star-fill.svg" class="bintang"> <img src="star-fill.svg" class="bintang"></p>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#orderModal">Pesan Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card menu-card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHcVnpg8sl6V4pWiThww84hlmeBS9wUCJrGA&s" class="card-img-top" alt="Fried Chicken">
+                        <div class="card-body">
+                            <h5 class="card-title">Es Cendol</h5>
+                            <p class="card-text">Es cendol dengan santan, gula merah</p>
+                            <p class="price">Rp. 15.000 <img src="star-fill.svg" class="bintang"> <img src="star-fill.svg" class="bintang"> </p>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#orderModal">Pesan Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+                  <div class="col-md-3 mb-4">
+                    <div class="card menu-card">
+                        <img src="https://img-global.cpcdn.com/recipes/a2f8bb7aa62666e1/680x482cq70/teh-obeng-khas-batam-es-teh-manis-khas-batam-foto-resep-utama.jpg" class="card-img-top" alt="Fried Chicken">
+                        <div class="card-body">
+                            <h5 class="card-title">Teh Obeng</h5>
+                            <p class="card-text">Teh obeng </p>
+                            <p class="price">Rp. 8.000 <img src="star-fill.svg" class="bintang"></p>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#orderModal">Pesan Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+                  <div class="col-md-3 mb-4">
+                    <div class="card menu-card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC7g3j3Ca8cZhSyV6k8JyPyuM0OCaFGkc7eQ&s" class="card-img-top" alt="Fried Chicken">
+                        <div class="card-body">
+                            <h5 class="card-title">Es Teler</h5>
+                            <p class="card-text">Es teler dengan buah-buahan segar</p>
+                            <p class="price">Rp. 23.000 <img src="star-fill.svg" class="bintang"> <img src="star-fill.svg" class="bintang"> <img src="star-fill.svg" class="bintang"></p>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#orderModal">Pesan Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card menu-card">
+                        <img src="https://img.inews.co.id/media/600/files/networks/2024/04/11/48d09_bakso.jpg" class="card-img-top" alt="Bakso">
+                        <div class="card-body">
+                            <h5 class="card-title">Bakso Urat Gepeng</h5>
+                            <p class="card-text">Bakso urat gepeng dengan kuah rempah asli Nusantara</p>
+                            <p class="price">Rp. 29.000 <img src="star-fill.svg" class="bintang"> <img src="star-fill.svg" class="bintang"></p>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#orderModal">Pesan Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card menu-card">
+                        <img src="https://img.inews.co.id/media/600/files/networks/2024/04/11/48d09_bakso.jpg" class="card-img-top" alt="Bakso">
+                        <div class="card-body">
+                            <h5 class="card-title">Bakso Urat Gepeng</h5>
+                            <p class="card-text">Bakso urat gepeng dengan kuah rempah asli Nusantara</p>
+                            <p class="price">Rp. 29.000 <img src="star-fill.svg" class="bintang"> <img src="star-fill.svg" class="bintang"></p>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#orderModal">Pesan Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card menu-card">
+                        <img src="https://img.inews.co.id/media/600/files/networks/2024/04/11/48d09_bakso.jpg" class="card-img-top" alt="Bakso">
+                        <div class="card-body">
+                            <h5 class="card-title">Bakso Urat Gepeng</h5>
+                            <p class="card-text">Bakso urat gepeng dengan kuah rempah asli Nusantara</p>
+                            <p class="price">Rp. 29.000 <img src="star-fill.svg" class="bintang"> <img src="star-fill.svg" class="bintang"></p>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#orderModal">Pesan Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+                  <div class="col-md-3 mb-4">
+                    <div class="card menu-card">
+                        <img src="https://img.inews.co.id/media/600/files/networks/2024/04/11/48d09_bakso.jpg" class="card-img-top" alt="Bakso">
+                        <div class="card-body">
+                            <h5 class="card-title">Bakso Urat Gepeng</h5>
+                            <p class="card-text">Bakso urat gepeng dengan kuah rempah asli Nusantara</p>
+                            <p class="price">Rp. 29.000 <img src="star-fill.svg" class="bintang"> <img src="star-fill.svg" class="bintang"></p>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#orderModal">Pesan Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+                  <div class="col-md-3 mb-4">
+                    <div class="card menu-card">
+                        <img src="https://img.inews.co.id/media/600/files/networks/2024/04/11/48d09_bakso.jpg" class="card-img-top" alt="Bakso">
+                        <div class="card-body">
+                            <h5 class="card-title">Bakso Urat Gepeng</h5>
+                            <p class="card-text">Bakso urat gepeng dengan kuah rempah asli Nusantara</p>
+                            <p class="price">Rp. 29.000 <img src="star-fill.svg" class="bintang"></p>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#orderModal">Pesan Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+                  <div class="col-md-3 mb-4">
+                    <div class="card menu-card">
+                        <img src="https://img.inews.co.id/media/600/files/networks/2024/04/11/48d09_bakso.jpg" class="card-img-top" alt="Bakso">
+                        <div class="card-body">
+                            <h5 class="card-title">Bakso Urat Gepeng</h5>
+                            <p class="card-text">Bakso urat gepeng dengan kuah rempah asli Nusantara</p>
+                            <p class="price">Rp. 29.000 <img src="star-fill.svg" class="bintang"> <img src="star-fill.svg" class="bintang"> <img src="star-fill.svg" class="bintang"></p>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#orderModal">Pesan Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CATERING SECTION -->
+    <section id="catering" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Layanan Catering</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card catering-card">
+                        <div class="card-body text-center">
+                            <h3>Paket Bronze</h3>
+                            <p class="price">Rp. 1.500.000</p>
+                            <ul class="list-unstyled">
+                                <li>50 Porsi</li>
+                                <li>3 Menu Utama</li>
+                                <li>2 Menu Pendamping</li>
+                                <li>Free Soft Drinks</li>
+                            </ul>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cateringModal">Pesan Catering</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card catering-card featured">
+                        <div class="card-body text-center">
+                            <h3>Paket Silver</h3>
+                            <p class="price">Rp. 3.000.000</p>
+                            <ul class="list-unstyled">
+                                <li>100 Porsi</li>
+                                <li>5 Menu Utama</li>
+                                <li>3 Menu Pendamping</li>
+                                <li>Free Soft Drinks</li>
+                                <li>1 Round Cake</li>
+                            </ul>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cateringModal">Pesan Catering</button>
+                            <br><br>
+                            <img src="star-fill.svg" class="bintang"> <img src="star-fill.svg" class="bintang"> <img src="star-fill.svg" class="bintang"> <img src="star-fill.svg" class="bintang">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card catering-card">
+                        <div class="card-body text-center">
+                            <h3>Paket Gold</h3>
+                            <p class="price">Rp. 5.000.000</p>
+                            <ul class="list-unstyled">
+                                <li>200 Porsi</li>
+                                <li>7 Menu Utama</li>
+                                <li>5 Menu Pendamping</li>
+                                <li>Free Soft Drinks</li>
+                                <li>2 Round Cakes</li>
+                                <li>Free Dekorasi</li>
+                            </ul>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cateringModal">Pesan Catering</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROMO SECTION -->
+    <section id="promo" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5" style="color: antiquewhite;">Promo Spesial</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="promo-card">
+                        <div class="promo-content">
+                            <h3>Paket Hemat</h3>
+                            <p>1 loyang large nasi tumpeng + 3 minuman</p>
+                            <p class="price">Rp. 65.500</p>
+                            <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#orderModal">Pesan Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="promo-card">
+                        <div class="promo-content">
+                            <h3>Paket Keluarga</h3>
+                            <p>1 loyang medium nasi tumpeng + 4 Minuman</p>
+                            <p class="price">Rp. 150.000</p>
+                            <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#orderModal">Pesan Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="kontak" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Hubungi Kami</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <h4>Lokasi</h4>
+                    <p>Nongsa Turi Beach<br>
+                       Batam, Indonesia</p>
+                    <h4>Jam Operasional</h4>
+                    <p style="color: blue;">Senin - Minggu: 10:00 - 22:00</p>
+                    <h4>Kontak</h4>
+                    <p>Telepon: <span style="color: brown;">(0815) 1234-5678</span><br>
+                       Email: <a href="rasanusantara@gmail.com">rasanusantara@gmail.com</a></p>
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Nama Lengkap" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Email" required>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="4" placeholder="Pesan" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+                    </form>
+                </div>
+                <!--Peta-->
+                    <div class="col-md-6 mb-3" id="peta">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.9485550305903!2d104.09844017396344!3d1.196382362052026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da28749e068699%3A0x12385437a284743b!2sTuri%20Beach%20Resort!5e0!3m2!1sen!2sid!4v1731985939163!5m2!1sen!2sid" width="450" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--COD section-->
+
+     <div class="modal fade" id="codan" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Pesan Makanan</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="orderForm">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Nama Lengkap" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="tel" class="form-control" placeholder="Nomor Telepon" required>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" placeholder="Alamat Lengkap" rows="3" required></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <select class="form-control" required>
+                                <option value="">Pilih Menu</option>
+                                <option value="burger">Cheese Burger - Rp. 35.000</option>
+                                <option value="pizza">Supreme Pizza - Rp. 89.000</option>
+                                <option value="chicken">Crispy Chicken - Rp. 25.000</option>
+                                <option value="burger">Cheese Burger - Rp. 35.000</option>
+                                <option value="burger">Cheese Burger - Rp. 35.000</option>
+                                <option value="burger">Cheese Burger - Rp. 35.000</option>
+                                <option value="burger">Cheese Burger - Rp. 35.000</option>
+                                <option value="burger">Cheese Burger - Rp. 35.000</option>
+                                <option value="burger">Cheese Burger - Rp. 35.000</option>
+                                <option value="burger">Cheese Burger - Rp. 35.000</option>
+                                <option value="burger">Cheese Burger - Rp. 35.000</option>
+                                <option value="burger">Cheese Burger - Rp. 35.000</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <input type="number" class="form-control" placeholder="Jumlah Pesanan" min="1" required>
+                        </div>
+                        <div class="mb-3">
+                            <select class="form-control" required>
+                                <option value="">Metode Pembayaran</option>
+                                <option value="cod">Cash on Delivery (COD)</option>
+                                <option value="transfer">Transfer Bank</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Pesan Sekarang</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ORDER MODAL -->
+    <div class="modal fade" id="orderModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Pesan Makanan</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="orderForm">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Nama Lengkap" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="tel" class="form-control" placeholder="Nomor Telepon" required>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" placeholder="Alamat Lengkap" rows="3" required></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <select class="form-control" required>
+                                <option value="">Pilih Menu</option>
+                                <option value="burger">Cheese Burger - Rp. 35.000</option>
+                                <option value="pizza">Supreme Pizza - Rp. 89.000</option>
+                                <option value="chicken">Crispy Chicken - Rp. 25.000</option>
+                                <option value="burger">Cheese Burger - Rp. 35.000</option>
+                                <option value="burger">Cheese Burger - Rp. 35.000</option>
+                                <option value="burger">Cheese Burger - Rp. 35.000</option>
+                                <option value="burger">Cheese Burger - Rp. 35.000</option>
+                                <option value="burger">Cheese Burger - Rp. 35.000</option>
+                                <option value="burger">Cheese Burger - Rp. 35.000</option>
+                                <option value="burger">Cheese Burger - Rp. 35.000</option>
+                                <option value="burger">Cheese Burger - Rp. 35.000</option>
+                                <option value="burger">Cheese Burger - Rp. 35.000</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <input type="number" class="form-control" placeholder="Jumlah Pesanan" min="1" required>
+                        </div>
+                        <div class="mb-3">
+                            <select class="form-control" required>
+                                <option value="">Metode Pembayaran</option>
+                                <option value="cod">Cash on Delivery (COD)</option>
+                                <option value="transfer">Transfer Bank</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Pesan Sekarang</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CATERING MODAL -->
+    <div class="modal fade" id="cateringModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Pesan Catering</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="cateringForm">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Nama Lengkap" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="tel" class="form-control" placeholder="Nomor Telepon" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Email" required>
+                        </div>
+                        <div class="mb-3">
+                            <select class="form-control" required>
+                                <option value="">Pilih Paket Catering</option>
+                                <option value="bronze">Paket Bronze - Rp. 1.500.000</option>
+                                <option value="silver">Paket Silver - Rp. 3.000.000</option>
+                                <option value="gold">Paket Gold - Rp. 5.000.000</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <input type="date" class="form-control" placeholder="Tanggal Acara" required>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" placeholder="Alamat Acara" rows="3" required></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" placeholder="Catatan Tambahan" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Kirim Permintaan Catering</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>&copy; 2024 Restaurant Rasa Nusantara. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

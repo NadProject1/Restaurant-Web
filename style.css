@@ -1,0 +1,184 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    padding-top: 56px;
+    background-color:#17161c;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,q_auto:best,w_640/v1632477992/im6usxuvjay3wboobd3f.jpg) center/cover;
+    height: 100vh;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero-buttons {
+    margin-top: 30px;
+}
+
+/* Menu Cards */
+.menu-card {
+    transition: transform 0.3s;
+    box-shadow: 0 4px 6px rgba(185, 13, 13, 0.1);
+}
+
+.menu h2 {
+    color: #198754;
+}
+
+.menu-card:hover {
+    transform: translateY(-5px);
+}
+
+.menu-card .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.price {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+/* Catering Cards */
+.catering-card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+    height: 100%;
+}
+
+.catering-card:hover {
+    transform: translateY(-5px);
+}
+
+.catering-card.featured {
+    border: 2px solid #e74c3c;
+    transform: scale(1.05);
+}
+
+.catering-card.featured:hover {
+    transform: scale(1.05) translateY(-5px);
+}
+
+.catering-card ul li {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.catering-card ul li:last-child {
+    border-bottom: none;
+}
+
+/* Promo Cards */
+.promo-card {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIj60YvfJ5Wq5CRF1IVRPvOFqncdnlYhVnOA&s') center/cover;
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.promo-card h3 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+/* Contact Form */
+.form-control {
+    margin-bottom: 15px;
+}
+
+/* Modal Styles */
+.modal-content {
+    border-radius: 15px;
+}
+
+.modal-header {
+    background-color: #f8f9fa;
+    border-radius: 15px 15px 0 0;
+}
+
+.modal-body {
+    padding: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+    
+    .promo-card {
+        height: 200px;
+    }
+    
+    .promo-card h3 {
+        font-size: 1.5rem;
+    }
+
+    .catering-card.featured {
+        transform: none;
+    }
+
+    .catering-card.featured:hover {
+        transform: translateY(-5px);
+    }
+}
+
+/* Form Validation Styles */
+.form-control:invalid {
+    border-color: #dc3545;
+}
+
+.form-control:valid {
+    border-color: #198754;
+}
+
+/* Button Hover Effects */
+.btn {
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Peta */
+
+#peta {
+    position: relative;
+    padding-bottom: 50%;
+}
+
+#peta iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+.facebook {
+    background-color: #3b5998;
+}
+.facebook:hover {
+    background-color: #3b5998;
+}
+
+.bintang:hover {
+    background-color: greenyellow;
+}
+
